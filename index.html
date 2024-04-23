@@ -29,14 +29,13 @@
       <!-- Numeric Textfield with Floating Label -->
 <form action="#">
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
-    <label class="mdl-textfield__label" for="sample4">Number...</label>
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="userNumber">
+    <label class="mdl-textfield__label" for="userNumber">Number...</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
-</form>
       <!-- Raised button with ripple -->
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-        onclick="check()">
+        onclick="checkNumber()">
         Check
       </button>
       <br>
@@ -44,6 +43,7 @@
       <div id="result"></div>
       <div id="randomNumber"></div>
       </p>
+      </form>
     </main>
   </div>
 </body>

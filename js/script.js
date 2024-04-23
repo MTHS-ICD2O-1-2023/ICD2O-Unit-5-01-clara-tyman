@@ -19,6 +19,6 @@ function checkNumber() {
   }
 
   if (userNumber != randomNumber) {
-    document.getElementById("result").innerHTML = "You are incorrect!"
+    document.getElementById("result").innerHTML = "You are incorrect! Guess again."
   }
 }
